@@ -25,7 +25,11 @@ public class Ending : MonoBehaviour
         }
         // Poner sonido de final
         sound.EndGame();
-        
+    }
+
+    public void PlayAgain()
+    {
+        SceneManager.LoadScene("GameScene");
     }
 
 }
